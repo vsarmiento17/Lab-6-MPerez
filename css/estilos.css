@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f7f7;
+    color: #222;
+    line-height: 1.6;
+}
+
+#ficha-2301 {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.k-a19509 {
+    background-color: white;
+}
+
+h1, h2 {
+    color: #209790;
+}
+
+header {
+    background-color: #209790;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+nav a:hover {
+    background-color: #209790;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #209790;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h2 {
+    border-bottom: 2px solid #209790;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #209790;
+}
+
+article {
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #209790;
+    background-color: #f2f7f7;
+}
+
+aside {
+    margin: 15px 0;
+    padding: 15px;
+    border: 1px dashed #209790;
+    background-color: #eef8f7;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+dt {
+    font-weight: bold;
+    color: #209790;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+figure {
+    margin: 20px auto;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 1px solid #209790;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #209790;
+    color: white;
+}
+
+video,
+audio,
+iframe {
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+video {
+    border: 3px solid #209790;
+    border-radius: 8px;
+}
+
+form {
+    width: 100%;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #209790;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    color: #209790;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 9px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #209790;
+}
+
+textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+button {
+    background-color: #209790;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+noscript {
+    display: block;
+    padding: 10px;
+    background-color: #fff3cd;
+    text-align: center;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #ficha-2301 {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+}

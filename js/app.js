@@ -1,0 +1,1 @@
+console.log("Laboratorio 6 cargado correctamente.");
